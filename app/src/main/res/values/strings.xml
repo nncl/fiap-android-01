@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="app_title">FIAP - Primeiro App</string>
+    <string name="app_main_btn">Mensagem</string>
+</resources>
