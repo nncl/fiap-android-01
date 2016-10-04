@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sayHello(View v) {
         // 1st param => inside this view/context
-        Toast.makeText(this, "Hello FIAP", Toast.LENGTH_LONG).show();
+        // R = automatically generated every single time; means reference; by categories as well
+        Toast.makeText(this, R.string.app_hello_folks, Toast.LENGTH_LONG).show();
     }
 }
